@@ -1285,8 +1285,7 @@ $$
 Then effective weight becomes:
 
 $$
-w'_r
-=
+w'_r =
 w_rc_r.
 $$
 
