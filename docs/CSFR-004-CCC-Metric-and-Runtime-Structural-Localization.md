@@ -541,8 +541,7 @@ derived motifs
 Then:
 
 $$
-D_{PC} \
-=
+D_{PC} =
 \sum_r
 w_r
 D_r.
