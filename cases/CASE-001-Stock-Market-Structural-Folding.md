@@ -42,8 +42,7 @@ This allows the general CSFR **Claw-Dragon Merge** problem to reduce to a simple
 A historical pattern cluster can therefore be folded into a **Stock-Regime CCC**:
 
 $$
-CCC_C
-=
+CCC_C =
 [P_0,P_1,\ldots,P_{n-1}],
 $$
 
@@ -409,8 +408,7 @@ Therefore forward and reverse structural descriptors should remain separate.
 A composite sequence metric may use:
 
 $$
-D_{seq}
-=
+D_{seq} =
 w_pD_{point}
 +
 w_bD_{bigram}
@@ -447,8 +445,7 @@ $$
 It can combine:
 
 $$
-D_{PP}^{stock}
-=
+D_{PP}^{stock} =
 w_nD_{numeric}
 +
 w_cD_{categorical}
@@ -461,8 +458,7 @@ $$
 A more explicit example is:
 
 $$
-D_{PP}^{stock}
-=
+D_{PP}^{stock} =
 w_{PE}D_{PE}
 +
 w_VD_V
@@ -762,8 +758,7 @@ P3 = {UP:0.75,   FLAT:0.25}
 Formally:
 
 $$
-CCC_C
-=
+CCC_C =
 [P_0,P_1,P_2,P_3].
 $$
 
@@ -817,8 +812,7 @@ The Stock-Regime CCC represents:
 Thus:
 
 $$
-CCC_C
-=
+CCC_C =
 Policy\text{-}Compressed
 Historical\ Structural\ Possibility\ Set.
 $$
@@ -878,8 +872,7 @@ It is to preserve the variation needed for future structural localization.
 A Stock-Regime CCC may be interpreted as:
 
 $$
-CCC
-=
+CCC =
 Core
 +
 \Delta.
@@ -940,8 +933,7 @@ $$
 For a categorical sequence position:
 
 $$
-d_j(t_j,P_j)
-=
+d_j(t_j,P_j) =
 \sum_v
 p_j(v)d(t_j,v).
 $$
@@ -949,8 +941,7 @@ $$
 The complete metric may be:
 
 $$
-D_{PC}^{stock}
-=
+D_{PC}^{stock} =
 w_aD_{attributes}
 +
 w_sD_{sequence}
@@ -993,14 +984,12 @@ $$
 Then:
 
 $$
-d_j
-=
+d_j =
 0.70(0)
 +
 0.20(0.5)
 +
-0.10(1)
-=
+0.10(1) =
 0.20.
 $$
 
@@ -1023,8 +1012,7 @@ Days 16–20     weight 1.5
 Then:
 
 $$
-D_{sequence}
-=
+D_{sequence} =
 \frac{
 \sum_jw_jd_j
 }{
