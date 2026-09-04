@@ -486,8 +486,7 @@ Q_{fold} =
 +
 \gamma S
 +
-\delta U
--
+\delta U -
 \lambda Cost
 $$
 
