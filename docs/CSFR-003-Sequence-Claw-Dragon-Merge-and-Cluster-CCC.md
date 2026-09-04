@@ -705,8 +705,7 @@ It defines what structural possibilities survive the fold.
 Therefore:
 
 $$
-CCC_C
-=
+CCC_C =
 Fold_\pi(C).
 $$
 
@@ -725,8 +724,7 @@ A centroid tries to produce one representative value per dimension.
 For numeric vectors:
 
 $$
-\mu_j
-=
+\mu_j =
 \frac{1}{m}
 \sum_i x_{ij}.
 $$
@@ -773,16 +771,14 @@ CSFR therefore defines a Cluster CCC as:
 Formally:
 
 $$
-CCC_C
-=
+CCC_C =
 Fold_\pi(C).
 $$
 
 For sequences:
 
 $$
-CCC_C
-=
+CCC_C =
 [
 P'_0,P'_1,\ldots,P'_{n-1}
 ].
@@ -828,8 +824,7 @@ The CCC also preserves selected uncertainty.
 Suppose:
 
 $$
-P_j
-=
+P_j =
 \{
 (A,0.53),
 (B,0.42),
@@ -840,8 +835,7 @@ $$
 After filtering:
 
 $$
-P'_j
-=
+P'_j =
 \{
 (A,0.53),
 (B,0.42)
@@ -902,8 +896,7 @@ represent the number of retained CCC candidates.
 A simple compression ratio is:
 
 $$
-R_{compress}
-=
+R_{compress} =
 \frac{|CCC_C|}{|C|}.
 $$
 
@@ -964,8 +957,7 @@ This may be useful if different positions have different structural roles.
 Thus:
 
 $$
-\pi
-=
+\pi =
 \{\pi_0,\pi_1,\ldots,\pi_{n-1}\}.
 $$
 
@@ -1048,8 +1040,7 @@ Another strategy is to preserve ranges:
 Then a Position CCC becomes:
 
 $$
-P_j
-=
+P_j =
 \{
 (range_1,w_1),
 (range_2,w_2)
@@ -1481,16 +1472,14 @@ In evolving domains, recent observations may receive greater weight.
 For object \(x_i\):
 
 $$
-\alpha_i
-=
+\alpha_i =
 Decay(age_i).
 $$
 
 Then:
 
 $$
-w_j(v)
-=
+w_j(v) =
 \frac{
 \sum_i
 \alpha_i
@@ -1509,8 +1498,7 @@ This allows the CCC to adapt gradually to structural drift.
 If source objects have confidence \(c_i\), then:
 
 $$
-w_j(v)
-=
+w_j(v) =
 \frac{
 \sum_i
 c_i
@@ -1529,8 +1517,7 @@ High-confidence observations contribute more strongly.
 More generally:
 
 $$
-w_j(v)
-=
+w_j(v) =
 \frac{
 \sum_i
 \alpha_i
@@ -1559,8 +1546,7 @@ This gives CSFR a generalized weighted merge.
 A useful diagnostic for each position is entropy:
 
 $$
-H(P_j)
-=
+H(P_j) =
 -\sum_v
 p_j(v)\log p_j(v).
 $$
@@ -1639,8 +1625,7 @@ high-variation positions.
 This yields a useful decomposition:
 
 $$
-CCC
-=
+CCC =
 Core
 +
 Variation.
@@ -1663,8 +1648,7 @@ This is a valuable structural interpretation.
 Another equivalent form is:
 
 $$
-CCC
-=
+CCC =
 Core
 +
 \Delta.
@@ -1688,8 +1672,7 @@ CCC quality can be checked by measuring all cluster members against the resultin
 For cluster \(C\):
 
 $$
-Coherence(C)
-=
+Coherence(C) =
 \frac{1}{|C|}
 \sum_{x\in C}
 D_{PC}(x,CCC_C).
