@@ -426,10 +426,8 @@ UP→DOWN→FLAT
 This creates multiple structural resolutions:
 
 $$
-Point
-<
-Bigram
-<
+Point <
+Bigram <
 Trigram.
 $$
 
@@ -546,8 +544,7 @@ A runtime should not force every future object into an existing historical struc
 If:
 
 $$
-\min_iD_{PC}(x,CCC_i)
->
+\min_iD_{PC}(x,CCC_i) >
 \tau,
 $$
 

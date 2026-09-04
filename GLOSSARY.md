@@ -1313,8 +1313,7 @@ A first-class runtime result indicating that no existing CCC is sufficiently com
 Example condition:
 
 $$
-\min_iD_{PC}(x,CCC_i)
->
+\min_iD_{PC}(x,CCC_i) >
 \tau_{accept}.
 $$
 

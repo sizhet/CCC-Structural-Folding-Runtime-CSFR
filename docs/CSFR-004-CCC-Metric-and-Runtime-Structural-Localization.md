@@ -895,8 +895,7 @@ $$
 If:
 
 $$
-\min_iD_{PC}(x,CCC_i)
->
+\min_iD_{PC}(x,CCC_i) >
 \tau_{accept},
 $$
 

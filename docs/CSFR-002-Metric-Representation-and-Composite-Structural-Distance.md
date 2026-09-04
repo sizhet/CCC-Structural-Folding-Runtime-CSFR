@@ -574,10 +574,8 @@ contains information not recoverable from isolated values alone.
 Thus:
 
 $$
-Point
-<
-Bigram
-<
+Point <
+Bigram <
 Trigram
 $$
 

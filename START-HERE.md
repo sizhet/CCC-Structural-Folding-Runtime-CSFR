@@ -290,10 +290,8 @@ UP→DOWN→FLAT
 Thus:
 
 $$
-Point
-<
-Bigram
-<
+Point <
+Bigram <
 Trigram
 $$
 
@@ -695,8 +693,7 @@ This prevents false structural certainty.
 If every existing CCC is far away:
 
 $$
-\min_iD_{PC}(x,CCC_i)
->
+\min_iD_{PC}(x,CCC_i) >
 \tau,
 $$
 
