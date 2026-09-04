@@ -493,8 +493,7 @@ $$
 where each \(P_j\) is a weighted set of structural values observed at position \(j\):
 
 $$
-P_j
-=
+P_j =
 \{(v_1,w_1),(v_2,w_2),\ldots\}.
 $$
 
@@ -615,16 +614,14 @@ Because a CCC may retain several possible values at a structural position, objec
 Suppose the target object contains value \(x_j\) at position \(j\), while the CCC contains:
 
 $$
-P_j
-=
+P_j =
 \{(v_1,p_1),(v_2,p_2),\ldots,(v_q,p_q)\}.
 $$
 
 A simple consensus distance may be defined as:
 
 $$
-d_j(x_j,P_j)
-=
+d_j(x_j,P_j) =
 \sum_{r=1}^{q}
 p_r d(x_j,v_r).
 $$
@@ -632,8 +629,7 @@ $$
 The complete sequence distance may then be:
 
 $$
-D(x,CCC)
-=
+D(x,CCC) =
 \frac{
 \sum_j w_jd_j(x_j,P_j)
 }{
@@ -680,8 +676,7 @@ $$
 A dispatch policy then selects the next structural region:
 
 $$
-Child(x)
-=
+Child(x) =
 Policy(
 D_{PC}(x,CCC_1),
 \ldots,
@@ -692,8 +687,7 @@ $$
 The simplest policy may be:
 
 $$
-Child(x)
-=
+Child(x) =
 \arg\min_iD_{PC}(x,CCC_i).
 $$
 
