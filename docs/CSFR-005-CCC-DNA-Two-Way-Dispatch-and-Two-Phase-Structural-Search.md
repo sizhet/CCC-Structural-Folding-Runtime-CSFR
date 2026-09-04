@@ -246,8 +246,7 @@ be a folded structural representation.
 Define:
 
 $$
-DNA(CCC)
-=
+DNA(CCC) =
 \{
 f_1,f_2,\ldots,f_m
 \},

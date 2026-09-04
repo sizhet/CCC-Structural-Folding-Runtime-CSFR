@@ -239,8 +239,7 @@ Different dimensions may use different distance functions.
 A composite metric can then combine them:
 
 $$
-D(x,y)
-=
+D(x,y) =
 \sum_{r=1}^{R}
 w_rD_r(x,y),
 $$
@@ -325,8 +324,7 @@ The merge policy determines which structures are retained, compressed, weighted,
 Therefore:
 
 $$
-CCC_i
-=
+CCC_i =
 M_\pi(C_i).
 $$
 
@@ -343,8 +341,7 @@ The purpose is to construct a representation that preserves the structural infor
 A conventional centroid typically attempts to represent a cluster using a central or average point:
 
 $$
-\mu_i
-=
+\mu_i =
 \frac{1}{|C_i|}
 \sum_{x\in C_i}x.
 $$
@@ -489,8 +486,7 @@ $$
 Then the general sequence merge can collapse into a much simpler operation:
 
 $$
-CCC_C
-=
+CCC_C =
 [P_0,P_1,\ldots,P_{n-1}],
 $$
 

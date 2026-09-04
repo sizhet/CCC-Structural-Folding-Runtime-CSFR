@@ -30,8 +30,7 @@ This paper defines a generic structural metric model for CSFR based on heterogen
 The central representation can be written as:
 
 $$
-x
-=
+x =
 \{
 A^{num},
 A^{cat},
@@ -48,8 +47,7 @@ Each measure may use its own local similarity or distance function.
 The results are then combined through a weighted composite metric:
 
 $$
-D_{PP}(x,y)
-=
+D_{PP}(x,y) =
 \sum_{r=1}^{R}
 w_rD_r(x,y).
 $$
@@ -57,8 +55,7 @@ $$
 For normalized similarity channels, an equivalent structural similarity formulation is:
 
 $$
-Sim_{PP}(x,y)
-=
+Sim_{PP}(x,y) =
 \sum_{r=1}^{R}
 w_rSim_r(x,y).
 $$
@@ -129,8 +126,7 @@ CSFR therefore treats representation as a **heterogeneous structural container**
 A useful generic object representation is:
 
 $$
-x
-=
+x =
 \{
 M_1,M_2,\ldots,M_k
 \},
@@ -195,8 +191,7 @@ $$
 normalized absolute difference,
 
 $$
-d(a,b)
-=
+d(a,b) =
 \frac{|a-b|}{R},
 $$
 
@@ -237,8 +232,7 @@ VERY_STRONG
 one may define ordinal distance:
 
 $$
-d(a,b)
-=
+d(a,b) =
 \frac{|rank(a)-rank(b)|}{R}.
 $$
 

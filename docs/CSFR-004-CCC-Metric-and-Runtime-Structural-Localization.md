@@ -12,8 +12,7 @@
 CSFR-003 defines how a metric-space sequence cluster can be folded into a **Cluster CCC**:
 
 $$
-CCC_C
-=
+CCC_C =
 [P_0,P_1,\ldots,P_{n-1}],
 $$
 
@@ -42,8 +41,7 @@ $$
 For aligned sequence CCCs, a canonical positional distance is:
 
 $$
-d_j(x_j,P_j)
-=
+d_j(x_j,P_j) =
 \sum_{v\in P_j}
 p_j(v)d(x_j,v),
 $$
@@ -51,8 +49,7 @@ $$
 and the complete sequence distance can be aggregated as:
 
 $$
-D_{PC}(x,CCC)
-=
+D_{PC}(x,CCC) =
 \frac{
 \sum_j w_jd_j(x_j,P_j)
 }{
@@ -65,8 +62,7 @@ This metric turns a Cluster CCC into an executable runtime interface.
 At each node, an incoming object can be compared with child CCCs and routed according to a dispatch policy:
 
 $$
-Child(x)
-=
+Child(x) =
 Policy(
 D_{PC}(x,CCC_1),
 \ldots,
@@ -98,8 +94,7 @@ $$
 \boxed{
 Folded\ CCC
 +
-CCC\ Metric
-=
+CCC\ Metric =
 Runtime\ Structural\ Dispatcher
 }
 $$
@@ -267,24 +262,21 @@ $$
 Let target sequence be:
 
 $$
-T
-=
+T =
 [t_0,t_1,\ldots,t_{n-1}]
 $$
 
 and Cluster CCC be:
 
 $$
-CCC
-=
+CCC =
 [P_0,P_1,\ldots,P_{n-1}].
 $$
 
 Each position is:
 
 $$
-P_j
-=
+P_j =
 \{
 (v_1,p_1),
 (v_2,p_2),
@@ -296,8 +288,7 @@ $$
 A canonical positional distance is:
 
 $$
-d_j(t_j,P_j)
-=
+d_j(t_j,P_j) =
 \sum_{r=1}^{q}
 p_r d(t_j,v_r).
 $$
@@ -341,8 +332,7 @@ $$
 Then:
 
 $$
-d_j
-=
+d_j =
 0.60(0)
 +
 0.30(0.5)
@@ -350,9 +340,7 @@ d_j
 0.10(1)
 $$
 
-$$
-=
-0.25.
+$$ = 0.25.
 $$
 
 The target is close to this structural possibility set, but not perfectly identical.
@@ -386,8 +374,7 @@ Weighted consensus prevents a tiny tail candidate from dominating.
 A minimum-distance policy may be:
 
 $$
-d_j^{min}
-=
+d_j^{min} =
 \min_v d(t_j,v).
 $$
 

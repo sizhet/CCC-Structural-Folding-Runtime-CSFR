@@ -50,16 +50,14 @@ $$
 For a cluster \(C\) containing aligned sequences of length \(n\), the resulting CCC can be represented as:
 
 $$
-CCC_C
-=
+CCC_C =
 [P_0,P_1,\ldots,P_{n-1}],
 $$
 
 where each position \(P_j\) contains a weighted set of candidate values:
 
 $$
-P_j
-=
+P_j =
 \{(v_1,w_1),(v_2,w_2),\ldots\}.
 $$
 
@@ -88,8 +86,7 @@ The resulting CCC becomes the folded representation used by later CSFR stages fo
 Suppose metric-space clustering produces:
 
 $$
-C
-=
+C =
 \{x_1,x_2,\ldots,x_m\}.
 $$
 
@@ -194,8 +191,7 @@ Instead, it identifies an important special case where the problem collapses dra
 Assume a cluster contains:
 
 $$
-C
-=
+C =
 \{
 S_1,S_2,\ldots,S_m
 \}.
@@ -261,8 +257,7 @@ $$
 For each position \(j\), collect:
 
 $$
-V_j
-=
+V_j =
 \{
 x_{0j},
 x_{1j},
@@ -322,8 +317,7 @@ $$
 Counts can be normalized:
 
 $$
-w_j(v)
-=
+w_j(v) =
 \frac{count_j(v)}{m}.
 $$
 
@@ -338,8 +332,7 @@ FLAT    0.1429
 The positional representation becomes:
 
 $$
-P_j
-=
+P_j =
 \{
 (UP,0.5714),
 (DOWN,0.2857),
@@ -356,8 +349,7 @@ This is the raw positional CCC candidate.
 The complete sequence CCC is:
 
 $$
-CCC_C
-=
+CCC_C =
 [P_0,P_1,\ldots,P_{n-1}].
 $$
 
@@ -366,8 +358,7 @@ Each \(P_j\) is a weighted structural possibility set.
 Formally:
 
 $$
-P_j
-=
+P_j =
 \{
 (v,w_j(v))
 \mid
@@ -378,8 +369,7 @@ $$
 Thus:
 
 $$
-CCC_C
-=
+CCC_C =
 [
 \{(v,w_0(v))\},
 \{(v,w_1(v))\},
@@ -609,8 +599,7 @@ confidence threshold
 The filtered sequence CCC becomes:
 
 $$
-CCC_C
-=
+CCC_C =
 [
 F_\pi(P_0),
 F_\pi(P_1),
