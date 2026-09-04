@@ -213,16 +213,14 @@ Different dimensions may use different local metrics.
 A composite distance may be:
 
 $$
-D_{PP}
-=
+D_{PP} =
 \sum_r w_rD_r.
 $$
 
 For sequence dimensions:
 
 $$
-D_{seq}
-=
+D_{seq} =
 w_pD_{point}
 +
 w_bD_{bigram}

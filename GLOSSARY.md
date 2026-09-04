@@ -117,8 +117,7 @@ A collection of objects grouped according to structural or metric similarity.
 Formally:
 
 $$
-C
-=
+C =
 \{x_1,x_2,\ldots,x_m\}.
 $$
 
@@ -147,8 +146,7 @@ A folded CCC representation constructed from a cluster.
 Formally:
 
 $$
-CCC_C
-=
+CCC_C =
 Fold_\pi(C),
 $$
 
@@ -157,8 +155,7 @@ where \(\pi\) is a structural merge and filtering policy.
 For aligned sequences:
 
 $$
-CCC_C
-=
+CCC_C =
 [P_0,P_1,\ldots,P_{n-1}].
 $$
 
@@ -238,8 +235,7 @@ position-specific rules
 Formally:
 
 $$
-CCC_C
-=
+CCC_C =
 Fold_\pi(C).
 $$
 
@@ -362,8 +358,7 @@ FLAT    0.13
 Formally:
 
 $$
-P_j
-=
+P_j =
 \{(v_1,w_1),(v_2,w_2),\ldots\}.
 $$
 
@@ -378,8 +373,7 @@ A Cluster CCC for aligned sequences.
 Formally:
 
 $$
-CCC_C
-=
+CCC_C =
 [P_0,P_1,\ldots,P_{n-1}],
 $$
 
@@ -419,8 +413,7 @@ A single representative point, commonly produced by averaging numeric cluster me
 For numeric vectors:
 
 $$
-\mu_j
-=
+\mu_j =
 \frac{1}{m}
 \sum_i x_{ij}.
 $$
@@ -502,8 +495,7 @@ contains a dominant state plus substantial alternative structure.
 A useful interpretation is:
 
 $$
-CCC
-=
+CCC =
 Core
 +
 \Delta.
@@ -609,8 +601,7 @@ A distance constructed from multiple local structural distance channels.
 Canonical form:
 
 $$
-D(x,y)
-=
+D(x,y) =
 \sum_r w_rD_r(x,y).
 $$
 
@@ -643,8 +634,7 @@ $$
 A common conversion is:
 
 $$
-D(x,y)
-=
+D(x,y) =
 1-Sim(x,y).
 $$
 
@@ -836,8 +826,7 @@ This is typical inside \(D_{PC}\).
 A canonical value-to-CCC distance defined as:
 
 $$
-d_j(x_j,P_j)
-=
+d_j(x_j,P_j) =
 \sum_v p(v)d(x_j,v).
 $$
 

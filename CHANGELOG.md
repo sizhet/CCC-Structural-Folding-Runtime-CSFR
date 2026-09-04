@@ -196,8 +196,7 @@ $$
 Canonical sequence CCC:
 
 $$
-CCC_C
-=
+CCC_C =
 [P_0,P_1,\ldots,P_{n-1}].
 $$
 
@@ -476,14 +475,12 @@ Stock-Regime CCC
 Established the repository boundary:
 
 $$
-SMSF
-=
+SMSF =
 Application
 $$
 
 $$
-CSFR
-=
+CSFR =
 General\ Runtime\ Infrastructure.
 $$
 

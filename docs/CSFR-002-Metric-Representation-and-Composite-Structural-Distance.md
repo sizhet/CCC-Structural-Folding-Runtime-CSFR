@@ -379,8 +379,7 @@ It removes unnecessary precision while preserving policy-relevant structure.
 A bucket function can be written as:
 
 $$
-B(x)
-=
+B(x) =
 b_j
 \quad
 \text{if}
@@ -419,8 +418,7 @@ $$
 or ordinal:
 
 $$
-d
-=
+d =
 \frac{|rank(B(a))-rank(B(b))|}{R}.
 $$
 
@@ -440,8 +438,7 @@ PE_BUCKET   = MEDIUM
 The composite metric can then combine:
 
 $$
-D_{PE}
-=
+D_{PE} =
 w_rD_{raw}
 +
 w_bD_{bucket}.

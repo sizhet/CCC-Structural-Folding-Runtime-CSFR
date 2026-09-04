@@ -305,16 +305,14 @@ Selected Uncertainty Preservation
 **Canonical result**
 
 $$
-CCC_C
-=
+CCC_C =
 [P_0,P_1,\ldots,P_{n-1}].
 $$
 
 Each:
 
 $$
-P_j
-=
+P_j =
 \{(v_1,w_1),(v_2,w_2),\ldots\}.
 $$
 
@@ -982,8 +980,7 @@ $$
 ### 3. Cluster CCC can preserve structural alternatives.
 
 $$
-CCC
-=
+CCC =
 Policy\text{-}Compressed\ Structural\ Possibility\ Set.
 $$
 

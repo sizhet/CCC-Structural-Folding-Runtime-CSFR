@@ -138,16 +138,14 @@ $$
 with equal sequence length and strict positional alignment, the general sequence structural merge simplifies to:
 
 $$
-CCC_C
-=
+CCC_C =
 [P_0,P_1,\ldots,P_{n-1}],
 $$
 
 where each position contains a weighted structural possibility set:
 
 $$
-P_j
-=
+P_j =
 \{(v_1,w_1),(v_2,w_2),\ldots\}.
 $$
 
@@ -349,16 +347,14 @@ Different structural dimensions may use different local metrics.
 The total object-to-object distance may be:
 
 $$
-D_{PP}(x,y)
-=
+D_{PP}(x,y) =
 \sum_r w_rD_r(x,y).
 $$
 
 For a sequence dimension:
 
 $$
-D_{seq}
-=
+D_{seq} =
 w_pD_{point}
 +
 w_bD_{bigram}
@@ -460,16 +456,14 @@ value ↔ weighted possibility set
 For target value \(x_j\) and CCC position \(P_j\):
 
 $$
-d_j(x_j,P_j)
-=
+d_j(x_j,P_j) =
 \sum_v p(v)d(x_j,v).
 $$
 
 The full aligned-sequence distance may be:
 
 $$
-D_{PC}(x,CCC)
-=
+D_{PC}(x,CCC) =
 \frac{
 \sum_j w_jd_j
 }{
@@ -498,8 +492,7 @@ $$
 A dispatch policy then selects the next node:
 
 $$
-Child(x)
-=
+Child(x) =
 Policy(
 D_{PC}(x,CCC_1),
 \ldots,
@@ -644,8 +637,7 @@ These signatures form **CCC DNA**.
 Formally:
 
 $$
-DNA(CCC)
-=
+DNA(CCC) =
 \{f_1,f_2,\ldots,f_m\}.
 $$
 
