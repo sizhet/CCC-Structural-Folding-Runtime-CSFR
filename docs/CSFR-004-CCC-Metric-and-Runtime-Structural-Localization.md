@@ -402,8 +402,7 @@ It may be useful in Phase 1 search but not always as the final dispatch metric.
 The weighted mean is:
 
 $$
-d_j^{mean}
-=
+d_j^{mean} =
 \sum_v p(v)d(t_j,v).
 $$
 
@@ -425,16 +424,14 @@ This is a strong default for final metric verification.
 Another policy can use only the strongest candidates:
 
 $$
-P_j^{(M)}
-=
+P_j^{(M)} =
 TopM(P_j).
 $$
 
 Then:
 
 $$
-d_j
-=
+d_j =
 \frac{
 \sum_{v\in P_j^{(M)}}
 p(v)d(t_j,v)
@@ -475,16 +472,14 @@ confidence
 Then effective weight may be:
 
 $$
-w'_v
-=
+w'_v =
 p(v)c(v).
 $$
 
 Distance becomes:
 
 $$
-d_j
-=
+d_j =
 \frac{
 \sum_v w'_v d(t_j,v)
 }{
@@ -511,8 +506,7 @@ for position \(j\).
 Then:
 
 $$
-D_{PC}(T,CCC)
-=
+D_{PC}(T,CCC) =
 \frac{
 \sum_j w_j d_j(t_j,P_j)
 }{
@@ -547,7 +541,7 @@ derived motifs
 Then:
 
 $$
-D_{PC}
+D_{PC} \
 =
 \sum_r
 w_r
@@ -557,8 +551,7 @@ $$
 For example:
 
 $$
-D_{PC}
-=
+D_{PC} =
 0.15D_{numeric}
 +
 0.10D_{categorical}
@@ -575,8 +568,7 @@ $$
 A sequence dimension may itself contain:
 
 $$
-D_{sequence}
-=
+D_{sequence} =
 w_pD_{point}
 +
 w_bD_{bigram}
@@ -616,8 +608,7 @@ FLAT→DOWN
 A simple estimated weight may be:
 
 $$
-p(a\rightarrow b)
-=
+p(a\rightarrow b) =
 p_0(a)p_1(b)
 $$
 
@@ -690,8 +681,7 @@ $$
 A normalized conversion may be:
 
 $$
-D_{PC}
-=
+D_{PC} =
 1-Sim_{PC}.
 $$
 
@@ -710,16 +700,14 @@ $$
 For incoming object \(x\), calculate:
 
 $$
-d_i
-=
+d_i =
 D_{PC}(x,CCC_i).
 $$
 
 The simplest dispatch is:
 
 $$
-Child(x)
-=
+Child(x) =
 \arg\min_i d_i.
 $$
 
@@ -788,8 +776,7 @@ $$
 Margin:
 
 $$
-M
-=
+M =
 d_2-d_1.
 $$
 
@@ -800,8 +787,7 @@ Large \(M\) indicates a clear winner.
 A normalized margin may be:
 
 $$
-M_n
-=
+M_n =
 \frac{d_2-d_1}{d_2+\epsilon}.
 $$
 
@@ -831,8 +817,7 @@ This creates more robust localization.
 Instead of one child, retain:
 
 $$
-TopN(x)
-=
+TopN(x) =
 \{CCC_{i_1},\ldots,CCC_{i_N}\}.
 $$
 
@@ -1060,8 +1045,7 @@ CSFR defines runtime structural localization as:
 Formally:
 
 $$
-Localization(x)
-=
+Localization(x) =
 (N_0,N_1,\ldots,N_L).
 $$
 
@@ -1119,8 +1103,7 @@ local uncertainty model
 Thus:
 
 $$
-Node
-=
+Node =
 CCC
 +
 Local\ Intelligence.
@@ -1245,8 +1228,7 @@ historical support
 One simple confidence score is:
 
 $$
-Conf
-=
+Conf =
 (1-d_1)
 \cdot
 g(M)
@@ -1263,8 +1245,7 @@ More sophisticated confidence models can be attached later.
 From CSFR-003, position entropy is:
 
 $$
-H(P_j)
-=
+H(P_j) =
 -\sum_vp(v)\log p(v).
 $$
 
@@ -1896,8 +1877,7 @@ search budget
 Dispatch is therefore:
 
 $$
-Decision
-=
+Decision =
 Policy(
 Distance,
 Margin,
@@ -1915,24 +1895,21 @@ This is more general than pure nearest-neighbor routing.
 The simplest canonical form is:
 
 $$
-d_i
-=
+d_i =
 D_{PC}(x,CCC_i)
 $$
 
 followed by:
 
 $$
-Child(x)
-=
+Child(x) =
 Policy(d_1,\ldots,d_k).
 $$
 
 A strict nearest-child policy is:
 
 $$
-Child(x)
-=
+Child(x) =
 \arg\min_i d_i.
 $$
 
@@ -1945,16 +1922,14 @@ A production CSFR system should permit broader policy behavior.
 Let:
 
 $$
-N_{l+1}
-=
+N_{l+1} =
 Dispatch(x,N_l).
 $$
 
 Then:
 
 $$
-Localization(x)
-=
+Localization(x) =
 (N_0,N_1,\ldots,N_L)
 $$
 
