@@ -14,9 +14,9 @@ version: "1.0.0"
 
 date-released: "2026-09-04"
 
-url: "https://github.com/sizhet/CCC-Structural-Folding-Runtime"
+url: "https://github.com/sizhet/CCC-Structural-Folding-Runtime-CSFR"
 
-repository-code: "https://github.com/sizhet/CCC-Structural-Folding-Runtime"
+repository-code: "https://github.com/sizhet/CCC-Structural-Folding-Runtime-CSFR"
 
 license: "Apache-2.0"
 

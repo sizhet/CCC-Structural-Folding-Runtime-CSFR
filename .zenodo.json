@@ -37,7 +37,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/sizhet/CCC-Structural-Folding-Runtime",
+      "identifier": "https://github.com/sizhet/CCC-Structural-Folding-Runtime-CSFR",
       "relation": "isSupplementTo",
       "scheme": "url"
     }

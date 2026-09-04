@@ -95,7 +95,7 @@ CSFR-002
 # 3. Repository Structure
 
 ```text
-CCC-Structural-Folding-Runtime/
+CCC-Structural-Folding-Runtime-CSFR/
 │
 ├── README.md
 ├── START-HERE.md
