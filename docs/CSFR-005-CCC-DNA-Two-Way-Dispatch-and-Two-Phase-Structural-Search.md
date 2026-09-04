@@ -1215,6 +1215,10 @@ This is an important benefit.
 
 ---
 
+![Fig-005-Two-Way-CCC-Runtime.png](../figures/Fig-005-Two-Way-CCC-Runtime.png)
+
+---
+
 # 45. DNA as Secondary Navigation Plane
 
 A useful architecture is:

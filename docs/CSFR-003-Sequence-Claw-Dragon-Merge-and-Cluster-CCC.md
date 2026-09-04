@@ -79,6 +79,10 @@ The resulting CCC becomes the folded representation used by later CSFR stages fo
 
 ---
 
+![Fig-003-Sequence-Claw-Dragon-Merge.png](../figures/Fig-003-Sequence-Claw-Dragon-Merge.png)
+
+---
+
 # 1. The Structural Merge Problem
 
 Suppose metric-space clustering produces:
@@ -764,6 +768,10 @@ DOWN    0.45
 ```
 
 This is structurally more informative.
+
+---
+
+![Fig-004-Cluster-CCC-Structural-Possibility-Set.png](../figures/Fig-004-Cluster-CCC-Structural-Possibility-Set.png)
 
 ---
 
