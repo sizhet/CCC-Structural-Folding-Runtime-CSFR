@@ -302,8 +302,7 @@ hierarchical topology
 A future \(D_{CC}\) may combine:
 
 $$
-D_{CC}
-=
+D_{CC} =
 w_pD_{position}
 +
 w_wD_{weight}
@@ -400,8 +399,7 @@ A future CSFR theory should define structural invariants across recursive foldin
 The current model assumes an explicit policy:
 
 $$
-CCC_C
-=
+CCC_C =
 Fold_\pi(C).
 $$
 
@@ -435,8 +433,7 @@ high-volume node
 This becomes:
 
 $$
-\pi
-=
+\pi =
 \pi(Node,\ Context,\ RuntimeFeedback).
 $$
 
@@ -482,8 +479,7 @@ rather than compression alone.
 A future objective could combine:
 
 $$
-Q_{fold}
-=
+Q_{fold} =
 \alpha C
 +
 \beta R
@@ -664,8 +660,7 @@ A structure that was common historically may become irrelevant.
 Future CSFR should investigate:
 
 $$
-Weight_t
-=
+Weight_t =
 Weight_0e^{-\lambda t}
 $$
 
@@ -1135,8 +1130,7 @@ $$
 Possible fusion:
 
 $$
-Score(c)
-=
+Score(c) =
 \alpha Score_{tree}(c)
 +
 \beta Score_{DNA}(c).
@@ -1199,8 +1193,7 @@ high-value query
 Thus search policy becomes:
 
 $$
-SearchPolicy
-=
+SearchPolicy =
 f(Query,\ Risk,\ Budget).
 $$
 
@@ -1236,8 +1229,7 @@ Rebuilding every CCC from scratch is unnecessary for streaming data.
 For aligned sequences, counts can be updated incrementally:
 
 $$
-Count_{t+1}
-=
+Count_{t+1} =
 Count_t
 +
 NewObservation.
@@ -1570,8 +1562,7 @@ A CCC could become a seed for structured generation.
 For example:
 
 $$
-CCC
-=
+CCC =
 Core+\Delta
 $$
 
