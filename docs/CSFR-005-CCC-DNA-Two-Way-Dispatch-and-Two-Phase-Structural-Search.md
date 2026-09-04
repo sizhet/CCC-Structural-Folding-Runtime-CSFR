@@ -1774,8 +1774,7 @@ Even if DNA retrieves candidates, Phase 2 may reject all of them.
 If:
 
 $$
-\min_c D_{PC}(x,c)
->
+\min_c D_{PC}(x,c) >
 \tau_{accept},
 $$
 
