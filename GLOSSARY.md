@@ -1199,8 +1199,7 @@ The process of selecting one or more next CCC nodes based on object-to-CCC compa
 Canonical form:
 
 $$
-Child(x)
-=
+Child(x) =
 Policy(
 D_{PC}(x,CCC_1),
 \ldots,
@@ -1239,8 +1238,7 @@ Dispatch is intentionally more general than argmin.
 A policy selecting the candidate with minimum distance.
 
 $$
-Child(x)
-=
+Child(x) =
 \arg\min_i D_{PC}(x,CCC_i).
 $$
 
@@ -1446,8 +1444,7 @@ F3:UP→UP→DOWN
 Formally:
 
 $$
-DNA(CCC)
-=
+DNA(CCC) =
 \{f_1,f_2,\ldots,f_m\}.
 $$
 
@@ -1588,8 +1585,7 @@ The probability that the true best CCC under full metric comparison is included 
 If \(CCC^*\) is the best full-metric candidate:
 
 $$
-Recall_K
-=
+Recall_K =
 P(CCC^*\in TopK_{retrieval}).
 $$
 
@@ -1606,8 +1602,7 @@ The fraction of total CCCs eliminated before full metric verification.
 If total CCC count is \(N\) and candidate count is \(K\):
 
 $$
-ReductionRatio
-=
+ReductionRatio =
 1-\frac{K}{N}.
 $$
 
@@ -1831,8 +1826,7 @@ A retrieval weighting idea that gives higher importance to rare structural DNA f
 Example inverse-frequency term:
 
 $$
-IDF(f)
-=
+IDF(f) =
 \log
 \frac{N}{1+df(f)}.
 $$
@@ -1848,8 +1842,7 @@ This is analogous to textual TF-IDF but applied to explicit structural tokens.
 The number of DNA features emitted by one CCC.
 
 $$
-Density(CCC)
-=
+Density(CCC) =
 |DNA(CCC)|.
 $$
 
@@ -2123,16 +2116,14 @@ A measure of uncertainty within a Position CCC.
 For:
 
 $$
-P_j
-=
+P_j =
 \{p_1,\ldots,p_k\},
 $$
 
 entropy is:
 
 $$
-H(P_j)
-=
+H(P_j) =
 -\sum_i
 p_i\log p_i.
 $$
