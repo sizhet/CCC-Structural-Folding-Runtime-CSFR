@@ -1,70 +1,57 @@
 cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata below."
 
-message: >-
-  If you use or discuss this work, please cite it using the
-  metadata provided in this file.
-
-title: "Stock-Market Structural Folding: A Differential-Tree Architecture for Historical Evidence Folding and Decision Unfolding"
+title: "CCC Structural Folding Runtime: Metric Clustering, Structural Merge, and Runtime Localization"
 
 type: software
 
 authors:
-  - family-names: "Tan"
-    given-names: "Sizhe"
+
+* family-names: "Tan"
+  given-names: "Sizhe"
 
 version: "1.0.0"
 
-date-released: "2026-09-03"
+date-released: "2026-09-04"
 
-abstract: >-
-  Stock-Market Structural Folding (SMSF) presents a structural
-  architecture for transforming historical market data into
-  reusable, navigable, and composable market experience. Historical
-  episodes are represented through X-Y-M units, where X denotes
-  antecedent structure, Y denotes subsequent outcome, and M denotes
-  quantitative outcome measures. X-side structures are organized
-  through Pattern Differential Trees, while the historical Y/M
-  populations of localized leaves are transformed through Two-Way
-  CCC analysis into Pattern Leaf Decision Interfaces (PLDIs).
-  Runtime Structural Unfolding localizes current observations,
-  retrieves relevant PLDIs, composes evidence across multiple
-  stocks, market sources, contexts, and events, and applies
-  replaceable scoring and on-the-fly policy mechanisms. The
-  architecture separates structural evidence from user policy,
-  preserves multiple historical possibilities before action
-  selection, retains provenance, and provides a foundation for
-  AI- and SQL-like structural query interfaces over folded market
-  experience.
+url: "https://github.com/sizhet/CCC-Structural-Folding-Runtime"
 
-keywords:
-  - structural folding
-  - structural unfolding
-  - stock market
-  - structural intelligence
-  - pattern differential tree
-  - differential tree
-  - pattern knowledge unit
-  - X-Y-M
-  - CCC
-  - two-way CCC
-  - pattern leaf decision interface
-  - PLDI
-  - composable unfolding
-  - structural evidence
-  - decision interface
-  - policy unfolding
-  - structural query
-  - folded intelligence
-  - artificial intelligence
-  - decision support
+repository-code: "https://github.com/sizhet/CCC-Structural-Folding-Runtime"
 
 license: "Apache-2.0"
 
-preferred-citation:
-  type: software
-  title: "Stock-Market Structural Folding: A Differential-Tree Architecture for Historical Evidence Folding and Decision Unfolding"
-  authors:
-    - family-names: "Tan"
-      given-names: "Sizhe"
-  version: "1.0.0"
-  year: 2026
+abstract: >-
+CCC Structural Folding Runtime (CSFR) is a general structural runtime
+framework for transforming metric-space object collections into folded
+Compressed Computational Cognition (CCC) structures that support runtime
+dispatch, structural localization, and localized intelligence. CSFR
+distinguishes object-to-object distance (D_PP), object-to-CCC distance
+(D_PC), and CCC-to-CCC distance (D_CC); introduces policy-compressed
+Cluster CCCs and aligned Sequence Claw-Dragon Merge; and extends runtime
+search through CCC DNA, reverse structural indexing, Two-Way CCC, and
+Two-Phase Structural Search. The canonical runtime progression is:
+Metric -> Cluster -> Merge -> CCC -> DNA -> Retrieve -> Verify ->
+Localization.
+
+keywords:
+
+* "CCC Structural Folding Runtime"
+* "CSFR"
+* "Structural Intelligence"
+* "Structural Folding"
+* "CCC"
+* "Cluster CCC"
+* "Structural Localization"
+* "Metric-Space Clustering"
+* "Claw-Dragon Merge"
+* "Composite Structural Distance"
+* "Object-to-Object Distance"
+* "Object-to-CCC Distance"
+* "CCC-to-CCC Distance"
+* "CCC DNA"
+* "Two-Way CCC"
+* "Two-Phase Structural Search"
+* "Per-Node Intelligence"
+* "Runtime Structural Intelligence"
+* "Structural Runtime"
+* "DBM-SI"
