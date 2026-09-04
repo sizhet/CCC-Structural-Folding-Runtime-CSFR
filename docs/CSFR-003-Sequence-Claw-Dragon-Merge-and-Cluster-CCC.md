@@ -2006,8 +2006,7 @@ $$
 define:
 
 $$
-p_j(v)
-=
+p_j(v) =
 \frac{
 \sum_i
 \alpha_i
@@ -2020,8 +2019,7 @@ $$
 Then:
 
 $$
-P_j
-=
+P_j =
 F_{\pi_j}
 \left(
 \{(v,p_j(v))\}
@@ -2032,8 +2030,7 @@ Finally:
 
 $$
 \boxed{
-CCC_C
-=
+CCC_C =
 [P_0,P_1,\ldots,P_{n-1}]
 }
 $$
@@ -2189,8 +2186,7 @@ and:
 
 $$
 \boxed{
-Cluster\ CCC
-=
+Cluster\ CCC =
 Policy\text{-}Compressed\ Structural\ Possibility\ Set
 }
 $$
