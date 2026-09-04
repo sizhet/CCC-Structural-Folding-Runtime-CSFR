@@ -202,6 +202,10 @@ Runtime localization uses those representations to place new objects into the fo
 
 ---
 
+![Fig-001-CSFR-Grand-Map.png](../figures/Fig-001-CSFR-Grand-Map.png)
+
+---
+
 # 4. Structural Representation Before Clustering
 
 CSFR assumes that an object can be expressed through a structured representation.
