@@ -625,8 +625,7 @@ $$
 From the Core-plus-Delta interpretation:
 
 $$
-CCC
-=
+CCC =
 Core
 +
 \Delta.
@@ -686,8 +685,7 @@ This creates adaptive retrieval depth.
 For every DNA feature \(f\), maintain:
 
 $$
-Index(f)
-=
+Index(f) =
 \{CCC_i\}.
 $$
 
@@ -764,8 +762,7 @@ Then candidate CCCs are retrieved from the reverse index.
 A simple retrieval policy uses union:
 
 $$
-Candidates(x)
-=
+Candidates(x) =
 \bigcup_{f\in DNA(x)}
 Index(f).
 $$
@@ -781,8 +778,7 @@ But candidate sets may become large.
 A stricter policy uses intersection:
 
 $$
-Candidates(x)
-=
+Candidates(x) =
 \bigcap_{f\in F}
 Index(f).
 $$
@@ -800,8 +796,7 @@ A better general policy is weighted voting.
 For candidate CCC \(c\):
 
 $$
-Score_{DNA}(c)
-=
+Score_{DNA}(c) =
 \sum_{f\in DNA(x)}
 w_f
 I[c\in Index(f)].
@@ -840,8 +835,7 @@ It is highly discriminative.
 A structural inverse-frequency weight can be defined:
 
 $$
-IDF(f)
-=
+IDF(f) =
 \log
 \frac{N}{1+df(f)},
 $$
@@ -857,8 +851,7 @@ is the number of CCCs containing feature \(f\).
 Then:
 
 $$
-Score_{DNA}(c)
-=
+Score_{DNA}(c) =
 \sum_f
 TF_x(f)\cdot IDF(f)\cdot I[c\in Index(f)].
 $$
@@ -872,8 +865,7 @@ This creates a TF-IDF-like structural retrieval layer.
 More generally:
 
 $$
-Score_{DNA}(c)
-=
+Score_{DNA}(c) =
 \sum_f
 w_f
 match(f,c).
@@ -992,16 +984,14 @@ be the candidate-retrieval function.
 Then:
 
 $$
-C_x
-=
+C_x =
 R(DNA(x)).
 $$
 
 Final localization becomes:
 
 $$
-CCC^*
-=
+CCC^* =
 \arg\min_{c\in C_x}
 D_{PC}(x,c).
 $$
@@ -1052,8 +1042,7 @@ be the true best candidate under full \(D_{PC}\).
 Candidate recall is:
 
 $$
-Recall_K
-=
+Recall_K =
 P(CCC^*\in TopK_{DNA}).
 $$
 
@@ -1066,8 +1055,7 @@ This is one of the most important retrieval-quality metrics.
 If total CCC count is \(N\) and Phase 1 returns \(K\):
 
 $$
-ReductionRatio
-=
+ReductionRatio =
 1-\frac{K}{N}.
 $$
 
@@ -1102,8 +1090,7 @@ Its primary job is:
 Therefore:
 
 $$
-Recall
->
+Recall >
 Precision
 $$
 
@@ -1423,8 +1410,7 @@ Another strategy begins with the strongest evidence.
 For each query feature:
 
 $$
-score(f)
-=
+score(f) =
 confidence(f)
 \times
 discrimination(f).
@@ -1439,8 +1425,7 @@ Then retrieve using highest-scoring features first.
 Candidate score can be accumulated incrementally:
 
 $$
-Score_t(c)
-=
+Score_t(c) =
 Score_{t-1}(c)
 +
 w_fmatch(f,c).
@@ -2030,8 +2015,7 @@ from reverse retrieval.
 Then:
 
 $$
-C_{final}
-=
+C_{final} =
 C_{tree}
 \cup
 C_{dna}.
@@ -2040,8 +2024,7 @@ $$
 Or scores may be combined:
 
 $$
-Score(c)
-=
+Score(c) =
 \lambda Score_{tree}(c)
 +
 (1-\lambda)Score_{DNA}(c).
@@ -2133,8 +2116,7 @@ A CCC with too many DNA tokens creates index noise.
 Define:
 
 $$
-Density(CCC)
-=
+Density(CCC) =
 |DNA(CCC)|.
 $$
 
@@ -2509,8 +2491,7 @@ $$
 Phase 1:
 
 $$
-C_Q
-=
+C_Q =
 TopK(
 Score_{DNA}(Q,CCC_i)
 ).
@@ -2519,8 +2500,7 @@ $$
 Phase 2:
 
 $$
-CCC^*
-=
+CCC^* =
 Policy(
 \{D_{PC}(x,c)\mid c\in C_Q\}
 ).
@@ -2558,8 +2538,7 @@ Together:
 
 $$
 \boxed{
-TwoWayCCC(x)
-=
+TwoWayCCC(x) =
 Verify(
 F,
 R
