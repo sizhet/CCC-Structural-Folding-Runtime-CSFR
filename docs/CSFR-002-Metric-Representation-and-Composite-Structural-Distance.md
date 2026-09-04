@@ -516,8 +516,7 @@ $$
 the forward bigram set is:
 
 $$
-B_f(S)
-=
+B_f(S) =
 \{
 (x_0,x_1),
 (x_1,x_2),
@@ -551,8 +550,7 @@ This distinguishes sequences that contain similar states but different trajector
 The forward trigram set is:
 
 $$
-T_f(S)
-=
+T_f(S) =
 \{
 (x_0,x_1,x_2),
 (x_1,x_2,x_3),
@@ -605,8 +603,7 @@ should be treated as a policy parameter.
 A practical metric may combine multiple resolutions:
 
 $$
-D_{seq}
-=
+D_{seq} =
 w_1D_{point}
 +
 w_2D_{bigram}
@@ -671,8 +668,7 @@ CRASH → UP → UP
 Therefore define:
 
 $$
-D_{ngram}
-=
+D_{ngram} =
 w_fD_{forward}
 +
 w_rD_{reverse}.
@@ -709,8 +705,7 @@ $$
 Then aligned sequence distance may be:
 
 $$
-D_{pos}(S,T)
-=
+D_{pos}(S,T) =
 \frac{
 \sum_{j=0}^{n}
 p_jd(x_j,t_j)
@@ -751,8 +746,7 @@ sequence shape
 Then:
 
 $$
-D(x,y)
-=
+D(x,y) =
 w_vD_v
 +
 w_tD_t
@@ -859,8 +853,7 @@ representing maximal similarity.
 A simple conversion is:
 
 $$
-D(x,y)
-=
+D(x,y) =
 1-Sim(x,y).
 $$
 
@@ -899,8 +892,7 @@ A node may combine its children using normalized weights.
 For node \(N\):
 
 $$
-Score(N)
-=
+Score(N) =
 \frac{
 \sum_iw_iScore(C_i)
 }{
@@ -969,8 +961,7 @@ $$
 Cosine similarity is:
 
 $$
-Sim_{cos}(u,v)
-=
+Sim_{cos}(u,v) =
 \frac{
 u\cdot v
 }{
@@ -989,8 +980,7 @@ A sequence can be converted into a sparse n-gram vector.
 For bigrams:
 
 $$
-V_2(S)
-=
+V_2(S) =
 [
 count(g_1),
 count(g_2),
@@ -1001,8 +991,7 @@ $$
 For trigrams:
 
 $$
-V_3(S)
-=
+V_3(S) =
 [
 count(h_1),
 count(h_2),
@@ -1013,16 +1002,14 @@ $$
 Then:
 
 $$
-Sim_{2}(S,T)
-=
+Sim_{2}(S,T) =
 Cosine(V_2(S),V_2(T))
 $$
 
 and:
 
 $$
-Sim_{3}(S,T)
-=
+Sim_{3}(S,T) =
 Cosine(V_3(S),V_3(T)).
 $$
 
@@ -1048,8 +1035,7 @@ But positional structure differs.
 Therefore sequence comparison may use both:
 
 $$
-D_{sequence}
-=
+D_{sequence} =
 w_pD_{position}
 +
 w_mD_{motif}.
@@ -1140,8 +1126,7 @@ $$
 Then:
 
 $$
-D_{PP}(x,y)
-=
+D_{PP}(x,y) =
 \frac{
 \sum_{r=1}^{R}
 w_rD_r(x,y)
@@ -1159,8 +1144,7 @@ $$
 then:
 
 $$
-D_{PP}(x,y)
-=
+D_{PP}(x,y) =
 \sum_rw_rD_r(x,y).
 $$
 
@@ -1173,8 +1157,7 @@ This is the primary object-to-object metric used before CCC folding.
 An equivalent similarity formulation is:
 
 $$
-Sim_{PP}(x,y)
-=
+Sim_{PP}(x,y) =
 \sum_{r=1}^{R}
 w_rSim_r(x,y).
 $$
@@ -1182,8 +1165,7 @@ $$
 Then:
 
 $$
-D_{PP}(x,y)
-=
+D_{PP}(x,y) =
 1-Sim_{PP}(x,y)
 $$
 
@@ -1207,8 +1189,7 @@ TREND_SEQUENCE
 The total similarity may be:
 
 $$
-Sim_{PP}
-=
+Sim_{PP} =
 0.15Sim_{PE}
 +
 0.10Sim_{Strength}
@@ -1221,8 +1202,7 @@ $$
 Trend similarity may itself be:
 
 $$
-Sim_{Trend}
-=
+Sim_{Trend} =
 0.30Sim_{point}
 +
 0.35Sim_{bigram}
@@ -1280,8 +1260,7 @@ reject comparison if critical feature missing
 A common policy is:
 
 $$
-D(x,y)
-=
+D(x,y) =
 \frac{
 \sum_{r\in A}w_rD_r
 }{
@@ -1314,8 +1293,7 @@ $$
 The composite distance becomes:
 
 $$
-D(x,y)
-=
+D(x,y) =
 \frac{
 \sum_rw_rc_rD_r
 }{
@@ -1786,8 +1764,7 @@ For CSFR, the primary pre-folding metric is:
 
 $$
 \boxed{
-D_{PP}
-:
+D_{PP} :
 Pattern/Object
 \leftrightarrow
 Pattern/Object
@@ -1797,8 +1774,7 @@ $$
 A canonical hierarchical form is:
 
 $$
-D_{PP}
-=
+D_{PP} =
 \sum_d
 w_d
 D_d,
@@ -1807,8 +1783,7 @@ $$
 where each dimension may itself be decomposed:
 
 $$
-D_d
-=
+D_d =
 \sum_f
 w_{d,f}
 D_{d,f}.
@@ -1817,8 +1792,7 @@ $$
 For sequence dimensions:
 
 $$
-D_{seq}
-=
+D_{seq} =
 w_pD_{point}
 +
 w_bD_{bigram}
