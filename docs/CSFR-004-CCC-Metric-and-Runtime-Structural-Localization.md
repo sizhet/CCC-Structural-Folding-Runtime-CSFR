@@ -153,6 +153,10 @@ Online Localization
 
 ---
 
+![Fig-002-Pattern-to-Pattern-vs-Pattern-to-CCC-Metric.png](../figures/Fig-002-Pattern-to-Pattern-vs-Pattern-to-CCC-Metric.png)
+
+---
+
 # 2. The Three CSFR Metric Relationships
 
 CSFR distinguishes three metric relationships.
