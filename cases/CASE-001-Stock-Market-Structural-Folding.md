@@ -1224,8 +1224,7 @@ human review rule
 Thus:
 
 $$
-MarketNode
-=
+MarketNode =
 Regime\ CCC
 +
 Per\text{-}Node\ Intelligence.
