@@ -405,8 +405,7 @@ Formally:
 
 $$
 \boxed{
-CCC_C
-=
+CCC_C =
 [P_0,P_1,\ldots,P_{n-1}]
 }
 $$
@@ -470,8 +469,7 @@ domain policy
 Therefore:
 
 $$
-CCC_C
-=
+CCC_C =
 Fold_\pi(C).
 $$
 
@@ -544,14 +542,12 @@ $$
 Then:
 
 $$
-d_j
-=
+d_j =
 0.60(0)
 +
 0.30(0.5)
 +
-0.10(1)
-=
+0.10(1) =
 0.25.
 $$
 
@@ -576,8 +572,7 @@ $$
 define:
 
 $$
-d_j(t_j,P_j)
-=
+d_j(t_j,P_j) =
 \sum_vp_j(v)d(t_j,v).
 $$
 
@@ -585,8 +580,7 @@ Then:
 
 $$
 \boxed{
-D_{PC}(T,CCC)
-=
+D_{PC}(T,CCC) =
 \frac{
 \sum_jw_jd_j
 }{
@@ -650,8 +644,7 @@ CCC-A
 Formally:
 
 $$
-Child(x)
-=
+Child(x) =
 \arg\min_i
 D_{PC}(x,CCC_i).
 $$
@@ -817,8 +810,7 @@ domain rules
 Thus:
 
 $$
-Node
-=
+Node =
 CCC
 +
 Per\text{-}Node\ Intelligence.
@@ -1316,8 +1308,7 @@ $$
 
 $$
 \boxed{
-Cluster\ CCC
-=
+Cluster\ CCC =
 Policy\text{-}Compressed\ Structural\ Possibility\ Set
 }
 $$
