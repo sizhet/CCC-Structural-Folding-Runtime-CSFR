@@ -1,0 +1,39 @@
+{
+  "title": "Stock-Market Structural Folding: A Differential-Tree Architecture for Historical Evidence Folding and Decision Unfolding",
+  "description": "<p><strong>Stock-Market Structural Folding (SMSF)</strong> presents a structural architecture for transforming historical market data into reusable, navigable, and composable market experience.</p><p>Historical episodes are represented through <strong>X-Y-M</strong> units, where X denotes antecedent structure, Y denotes subsequent outcome, and M denotes quantitative outcome measures. X-side structures are organized through <strong>Pattern Differential Trees</strong>. At localized Pattern Leaves, historical Y/M populations are analyzed through <strong>Two-Way CCC</strong> and exposed as <strong>Pattern Leaf Decision Interfaces (PLDIs)</strong>.</p><p>At runtime, <strong>Structural Unfolding</strong> localizes current observations, retrieves relevant PLDIs, composes evidence across multiple stocks, market sources, contexts, and events, and applies replaceable scoring and <strong>On-the-Fly Policy Unfolding</strong>. The architecture deliberately separates historical evidence from user policy, preserves multiple historical possibilities before action selection, and retains provenance for traceable decision support.</p><p>SMSF further introduces a path toward AI- and SQL-like structural query interfaces over folded market experience. Its central runtime principle is <strong>Heavy Fold, Light Unfold</strong>, while its scaling principle is to compose structural interfaces rather than rely solely on raw-feature concatenation.</p><p>The stock market is used as a demanding canonical domain for studying structural folding and unfolding; it is not presented as the theoretical boundary of the architecture.</p>",
+  "creators": [
+    {
+      "name": "Tan, Sizhe"
+    }
+  ],
+  "version": "1.0.0",
+  "publication_date": "2026-09-03",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "Apache-2.0",
+  "keywords": [
+    "Structural Folding",
+    "Structural Unfolding",
+    "Stock Market",
+    "Structural Intelligence",
+    "Pattern Differential Tree",
+    "Differential Tree",
+    "Pattern Knowledge Unit",
+    "X-Y-M",
+    "CCC",
+    "Two-Way CCC",
+    "Pattern Leaf Decision Interface",
+    "PLDI",
+    "Composable Unfolding",
+    "Structural Evidence",
+    "Decision Interface",
+    "On-the-Fly Policy Unfolding",
+    "Structural Query",
+    "Folded Intelligence",
+    "Artificial Intelligence",
+    "Decision Support"
+  ],
+  "notes": "Research architecture and reference framework. This repository is intended for research and educational purposes and does not constitute financial or investment advice.",
+  "related_identifiers": []
+}
+
