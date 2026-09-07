@@ -101,11 +101,12 @@ CCC-Structural-Folding-Runtime-CSFR/
 ├── START-HERE.md
 ├── CONTENTS.md
 │
-├── CSFR-001-From-Metric-Clusters-to-Structural-Folding-Runtime.md
-├── CSFR-002-Metric-Representation-and-Composite-Structural-Distance.md
-├── CSFR-003-Sequence-Claw-Dragon-Merge-and-Cluster-CCC.md
-├── CSFR-004-CCC-Metric-and-Runtime-Structural-Localization.md
-├── CSFR-005-CCC-DNA-Two-Way-Dispatch-and-Two-Phase-Structural-Search.md
+├── docs/
+│   ├── CSFR-001-From-Metric-Clusters-to-Structural-Folding-Runtime.md
+│   ├── CSFR-002-Metric-Representation-and-Composite-Structural-Distance.md
+│   ├── CSFR-003-Sequence-Claw-Dragon-Merge-and-Cluster-CCC.md
+│   ├── CSFR-004-CCC-Metric-and-Runtime-Structural-Localization.md
+│   └── CSFR-005-CCC-DNA-Two-Way-Dispatch-and-Two-Phase-Structural-Search.md
 │
 ├── cases/
 │   └── CASE-001-Stock-Market-Structural-Folding.md
