@@ -20,6 +20,8 @@ repository-code: "https://github.com/sizhet/CCC-Structural-Folding-Runtime-CSFR"
 
 license: "Apache-2.0"
 
+doi: 10.5281/zenodo.22650524
+
 abstract: >-
 CCC Structural Folding Runtime (CSFR) is a general structural runtime
 framework for transforming metric-space object collections into folded
