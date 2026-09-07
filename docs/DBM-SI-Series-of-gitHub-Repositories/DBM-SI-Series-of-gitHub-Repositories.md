@@ -215,4 +215,7 @@
     From Metric-Space Objects to Runtime Localization \
     Repository: https://github.com/sizhet/CCC-Structural-Folding-Runtime-CSFR
 
-       
+63. General Framework of Structural Folding and Unfolding Intelligence — GFSFUI \
+    Fold experience into structure. Search where the structure holds and where it fails. Unfold structural memory toward new goals. Validate the result, and fold the new experience back into a growing intelligence. \
+    Repository: https://github.com/sizhet/General-Framework-of-Structural-Folding-and-Unfolding-Intelligence       
+    
