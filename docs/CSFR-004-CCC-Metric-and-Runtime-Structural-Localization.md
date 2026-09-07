@@ -1322,7 +1322,7 @@ This creates a structural audit trail.
 Example:
 
 ```text id="j2tsqd"
-Input Pattern P-2026-0904
+Input Pattern P-2026-0907
 
 ROOT
 → CCC-02

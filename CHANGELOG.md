@@ -6,7 +6,7 @@ The format follows a concise release-oriented structure.
 
 ---
 
-# [1.0.0] — 2026-09-04
+# [1.0.0] — 2026-09-07
 
 ## Initial Public Release
 
